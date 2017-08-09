@@ -1,14 +1,29 @@
 import React from 'react';
 import {BrowserRouter as Router, Link ,} from 'react-router-dom'
 import PropTypes from 'prop-types';
+import GVerify from '../component/GVerify'
 import './login.css'
 import bg from '../images/login.png'
 import userImg from '../images/login_03.png'
 import passImg from '../images/login_06.png'
 import check from '../images/login_09.png'
-import checkImg from '../images/login_11.png'
-import refresh from '../images/login_13.png'
+
 class Login extends React.Component{
+    // constructor(props){
+    //     super(props)
+
+    // }
+    /*componentDidMount(){
+        let verifyCode = new GVerify("v_container");
+             /!*document.getElementById("my_button").onclick = function(){
+             var res = verifyCode.validate(document.getElementById("code_input").value);
+             if(res){
+                alert("验证正确");
+             }else{
+                alert("验证码错误");
+             }*!/
+         }
+    }*/
     static contextTypes = {
         router: PropTypes.object.isRequired
     };
@@ -45,14 +60,13 @@ class Login extends React.Component{
                         <div className="log-forget">
                             <Link to="">忘记密码</Link>
                         </div>
-                        <div className="log-form">
-                            <label htmlFor="check">
-                                <img src={checkImg} alt=""/>
-                            </label>
-                            <input type="text" id="check" placeholder="验证码"/>
-                           <img src={check} className="checkFresh" alt=""/>
-                           <img src={refresh} alt=""/>
-                        </div>
+
+                        <GVerify></GVerify>
+                        {/*<div id="v_container" style={divStyle} className="checkFresh">
+                            <canvas id="verifyCanvas" width="77" height="30"></canvas>
+                        </div>*/}
+                       {/*<img src={check} className="checkFresh" alt=""/>*/}
+
                         <div className="log-form log-btn">
                             <button className="btn btn-primary" onClick={this.login.bind(this)}>登 录</button>
                         </div>

@@ -1,0 +1,99 @@
+.Login {
+    /*text-align: center;*/
+    box-sizing: border-box;
+    background-color: #191f37;
+    overflow:hidden;
+    zoom:1;
+}
+.Login p,.Login ul{
+    margin: 0;
+    padding: 0;
+}
+.Login li{
+    list-style: none;
+}
+.Login-logo {
+    vertical-align: middle;
+}
+
+.Login-header {
+    background-color: #1c2540;
+    height: 60px;
+    color: #8f9eba;
+}
+.Login-header-nav{
+    display: inline-block;
+}
+.Login-intro {
+    float: left;
+}
+.Login-intro-nav{
+    background-color: #232c49;
+    color: #8f9eba;
+    width: 100px;
+    text-align: center;
+}
+.Login-intro li{
+    display: flex;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.Login-intro li div{
+    width: 100%;
+}
+.choose{
+    background-color: #191f37;
+}
+.Login-intro .choose div {
+    border-left: 3.5px solid #00f894;
+    color: #00f894;
+}
+.Login-intro-img{
+    margin-bottom: 20px;
+}
+#intro{
+    width: 90%;
+    margin-left: 1%;
+    margin-top: 20px;
+}
+.Login-intro-img{
+    display: inline-block;
+    width: 49.5%;
+}
+.Login-intro-more{
+    background-color: #11172c;
+    color: #8f9eba;
+    position: relative;
+}
+.Login-intro-img:nth-child(2){
+    margin-left: 12px;
+}
+#fang,#main{
+    height:400px;
+}
+.Login-intro-more ul{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+.Login-intro-more p{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    line-height: 55px;
+    margin-left: 30px;
+}
+.Login-intro-more li{
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 35px;
+    height: 53px;
+    line-height: 55px;
+}
+.Login-intro-choose{
+    color: #00f894;
+    border-bottom: 2px solid #00f894;
+}

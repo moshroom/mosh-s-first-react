@@ -1,0 +1,130 @@
+@media screen and (min-width:960px) and (max-width:1440px){
+  .log-intro{
+     width: 327px;
+     height: 400px;
+     right: 241px;
+  }
+  .log-intro div {
+    width: 278px;
+  }
+  #check{
+    width: 136px;
+  }
+  .log-intro .log-user{
+     margin: 51px auto 31px!important;
+  }
+  .log-btn{
+     margin-top: 58px!important;
+  }
+  .log-btn button{
+     height: 40px;
+  }
+  a{
+      margin: 10px 0 37px;
+  }
+}
+@media screen and (min-width:1440px) and (max-width:1680px){
+    .log-intro{
+        width: 327px;
+        height: 400px;
+        right: 241px;
+    }
+    .log-intro div {
+        width: 278px;
+    }
+    #check{
+        width: 136px;
+    }
+    .log-intro .log-user{
+        margin: 51px auto 31px!important;
+    }
+    .log-btn{
+        margin-top: 58px!important;
+    }
+    .log-btn button{
+        height: 40px;
+    }
+    a{
+        margin: 10px 0 37px;
+    }
+}
+@media screen and (min-width:1680px){
+    .log-intro{
+        width: 462px;
+        height: 534px;
+        right: 340px;
+    }
+    .log-intro div {
+        width: 352px;
+    }
+    #check{
+        width: 136px;
+    }
+    .log-intro .log-user{
+        margin: 86px auto 41px!important;
+    }
+    .log-btn{
+        margin-top: 88px!important;
+    }
+    .log-btn button{
+        height: 56px;
+        cursor: pointer;
+    }
+    a{
+        margin: 10px 0 66px;
+    }
+}
+
+.log-bg{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.log-intro{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    box-shadow: 0px 4px 16px 0px rgba(19, 20, 36, 0.18);
+}
+input {
+    font-size: 16px;
+    margin: 8px 0 8px 8px;
+    border: none;
+    outline: none;
+    color: #b5b5b5;
+}
+.log-intro img {
+    vertical-align: middle;
+}
+.log-intro .log-form{
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.checkFresh{
+    margin-right: 8px;
+}
+a{
+    font-size: 12px;
+    display: inline-block;
+    /*margin: 12px 0 49px;*/
+}
+.log-forget{
+    text-align: right;
+}
+.log-btn{
+    border: none;
+}
+.log-btn button{
+    width: 100%;
+    background-color: #05c880;
+    border: none;
+    color: white;
+    /*height: 56px;*/
+    font-size: 17px;
+}
+

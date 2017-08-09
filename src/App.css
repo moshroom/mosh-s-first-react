@@ -1,0 +1,101 @@
+
+.App {
+  /*text-align: center;*/
+  box-sizing: border-box;
+  background-color: #191f37;
+  overflow:hidden;
+  zoom:1;
+}
+.App p,.App ul{
+  margin: 0;
+  padding: 0;
+}
+.App li{
+  list-style: none;
+}
+.App-logo {
+  vertical-align: middle;
+}
+
+.App-header {
+  background-color: #1c2540;
+  height: 60px;
+  color: #8f9eba;
+}
+.App-header-nav{
+  display: inline-block;
+}
+.App-intro {
+  float: left;
+}
+.App-intro-nav{
+  background-color: #232c49;
+  color: #8f9eba;
+  width: 100px;
+  text-align: center;
+}
+.App-intro li{
+  display: flex;
+  height: 110px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.App-intro li div{
+  width: 100%;
+}
+.choose{
+  background-color: #191f37;
+}
+.App-intro .choose div {
+  border-left: 3.5px solid #00f894;
+  color: #00f894;
+}
+.App-intro-img{
+  margin-bottom: 20px;
+}
+#intro{
+  width: 90%;
+  margin-left: 1%;
+  margin-top: 20px;
+}
+.App-intro-img{
+  display: inline-block;
+  width: 49.5%;
+}
+.App-intro-more{
+  background-color: #11172c;
+  color: #8f9eba;
+  position: relative;
+}
+.App-intro-img:nth-child(2){
+  margin-left: 12px;
+}
+#fang,#main{
+  height:400px;
+}
+.App-intro-more ul{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9;
+}
+.App-intro-more p{
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  line-height: 55px;
+  margin-left: 30px;
+}
+.App-intro-more li{
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 35px;
+  height: 53px;
+  line-height: 55px;
+}
+.App-intro-choose{
+  color: #00f894;
+  border-bottom: 2px solid #00f894;
+}
+
